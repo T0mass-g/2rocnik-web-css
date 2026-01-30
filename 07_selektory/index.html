@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>06 CSS Selektory - Cvičenie</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    
+    <h1>CSS Selektory</h1>
+    
+    <section>
+        <h2>ČASŤ 1: Element selektory</h2>
+        <p><strong>Čo to je?</strong> Vyberajú všetky elementy daného typu.</p>
+        
+        <article>
+            <h3>Ukážka:</h3>
+            <h2>Tento nadpis (h2) je element selektor</h2>
+        </article>
+        
+        <article>
+            <h3>Príklady s použitím:</h3>
+            <h3>Nadpis tretej úrovne (h3)</h3>
+            <p>Paragraph s textom</p>
+        </article>
+    </section>
+
+    <section>
+        <h2>ČASŤ 2: Class selektory</h2>
+        <p><strong>Čo to je?</strong> Vyberajú elementy s konkrétnou triedou (class). Môžeme použiť viackrát.</p>
+        
+        <article>
+            <h3>Ukážka:</h3>
+            <p class="vyrazny">Tento text má class="vyrazny"</p>
+        </article>
+        
+        <article>
+            <h3>Príklady s použitím:</h3>
+            <p>Zvýraznený text s class="zvyrazneny"</p>
+            <div>
+                <strong>Upozornenie!</strong> Tento box má class="varovanie"
+            </div>
+        </article>
+    </section>
+
+    <section>
+        <h2>ČASŤ 3: ID selektory</h2>
+        <p><strong>Čo to je?</strong> Vyberajú jedinečný element s daným ID. Používame len raz na stránke!</p>
+        
+        <article>
+            <h3>Ukážka:</h3>
+            <div>
+                <h4>Tento box má id="hlavny-box"</h4>
+                <p>ID je jedinečné - použité len raz na stránke.</p>
+            </div>
+        </article>
+        
+        <article>
+            <h3>Príklad s použitím:</h3>
+            <div>
+                <h4>Tento box má id="specialny"</h4>
+                <p>Ostýlovaný pomocou ID selektora.</p>
+            </div>
+        </article>
+    </section>
+
+    <section>
+        <h2>Zhrnutie - Ako to funguje?</h2>
+        
+        <article>
+            <h3>Element selektor</h3>
+            <p><strong>V HTML:</strong> Iba názov tagu, napr. &lt;h2&gt;, &lt;p&gt;</p>
+            <p><strong>V CSS:</strong> Názov bez zátvoriek: h2 { color: red; }</p>
+            <p><strong>Vyberá:</strong> VŠETKY elementy daného typu</p>
+        </article>
+        
+        <article>
+            <h3>Class selektor</h3>
+            <p><strong>V HTML:</strong> Atribút class="", napr. &lt;p class="vyrazny"&gt;</p>
+            <p><strong>V CSS:</strong> Bodka a názov: .vyrazny { color: blue; }</p>
+            <p><strong>Vyberá:</strong> Všetky elementy s danou triedou (môže byť viackrát)</p>
+        </article>
+        
+        <article>
+            <h3>ID selektor</h3>
+            <p><strong>V HTML:</strong> Atribút id="", napr. &lt;div id="hlavny"&gt;</p>
+            <p><strong>V CSS:</strong> Mriežka a názov: #hlavny { color: green; }</p>
+            <p><strong>Vyberá:</strong> Jeden jedinečný element (použijeme len raz!)</p>
+        </article>
+    </section>
+    <section>
+        <h2>DÔLEŽITÉ: Pravidlá pomenovania</h2>
+        
+        <article>
+            <h3>Ako správne pomenovať class a id?</h3>
+            <ul>
+                <li><strong>BEZ diakritiky:</strong> Nie "tlačidlo", ale "tlacidlo"</li>
+                <li><strong>Malé písmená:</strong> Nie "Hlavny", ale "hlavny"</li>
+                <li><strong>Namiesto medzier pomlčka:</strong> Nie "hlavny box", ale "hlavny-box"</li>
+            </ul>
+            
+            <p><strong>Správne príklady:</strong></p>
+            <ul>
+                <li>class="hlavny-nadpis"</li>
+                <li>id="cerveny-box"</li>
+                <li>class="varovanie"</li>
+                <li>id="specialny-obsah"</li>
+            </ul>
+            
+            <p><strong>Nesprávne príklady:</strong></p>
+            <ul>
+                <li>class="Hlavný Nadpis" (veľké písmená + medzery + diakritika)</li>
+                <li>id="červený box" (diakritika + medzera)</li>
+                <li>class="Varovanie" (veľké písmeno)</li>
+            </ul>
+            
+            <p><strong>Poznámka:</strong> Postupne prejdeme na pomenovanie podľa BEM metodológie.</p>
+        </article>
+    </section>
+</body>
+</html>
