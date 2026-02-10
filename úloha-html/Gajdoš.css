@@ -1,0 +1,24 @@
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid gainsboro;
+}
+
+tbody tr:has(th[colspan="2"]) th,
+tbody tr:has(th[colspan="2"]) td {
+    background-color: #ffe28a;text-align: center;
+}
+
+thead th {
+    background: #3498db;
+    color: white;
+}
+
+
+
+   
+
+
