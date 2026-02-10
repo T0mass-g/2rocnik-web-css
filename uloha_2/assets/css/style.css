@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 40px auto;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 40px;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+
+.serif { font-family: "Times New Roman", serif; }
+.sans { font-family: Arial, sans-serif; }
+.mono { font-family: "Courier New", monospace; }
+
+
+.big { font-size: 32px; }
+.medium { font-size: 20px; }
+.small { font-size: 12px; }
+
+
+.light { font-weight: 300; }
+.normal { font-weight: 400; }
+.bold { font-weight: 700; }
+.extra-bold { font-weight: 900; }
+
+
+.italic { font-style: italic; }
+.oblique { font-style: oblique; }
+
+
+.red { color: red; }
+.blue { color: blue; }
+.green { color: green; }
+.purple { color: purple; }
+
+
+.left { text-align: left; }
+.center { text-align: center; }
+.right { text-align: right; }
+.justify { text-align: justify; }
+
+
+.lh-small { line-height: 1.2; }
+.lh-normal { line-height: 1.6; }
+.lh-big { line-height: 2.5; }
+
+
+.letter-small { letter-spacing: -1px; }
+.letter-big { letter-spacing: 5px; }
+.word-big { word-spacing: 10px; }
+
+
+.upper { text-transform: uppercase; }
+.lower { text-transform: lowercase; }
+.capitalize { text-transform: capitalize; }
+
+
+.underline { text-decoration: underline; }
+.overline { text-decoration: overline; }
+.line-through { text-decoration: line-through; }
+
+
+.indent { text-indent: 40px; }
+
+
+.shadow-light { text-shadow: 1px 1px 2px #aaa; }
+.shadow-strong { text-shadow: 3px 3px 5px #555; }
+.shadow-color { text-shadow: 2px 2px 5px red; }
+
+
+.combo-one {
+    font-size: 24px;
+    font-weight: 700;
+    color: blue;
+    text-shadow: 2px 2px 4px #888;
+}
+
+.combo-two {
+    font-style: italic;
+    text-align: center;
+    color: green;
+}
+
+.combo-three {
+    font-size: 12px;
+    color: red;
+    font-family: monospace;
+}
+
+
+.roboto { font-family: 'Roboto', sans-serif; }
+.playfair { font-family: 'Playfair Display', serif; }
+.opensans { font-family: 'Open Sans', sans-serif; }
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 14px;
+}
