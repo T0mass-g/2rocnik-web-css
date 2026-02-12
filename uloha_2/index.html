@@ -32,14 +32,14 @@
 <h1>Cvičenie: Práca s textom v CSS</h1>
 
 <p class="intro">
-    Vitajte v cvičení, kde sa naučíte pracovať s textom pomocou CSS.
+    Vitajte v cvičení, kde sa naučíte pracovať s textom pomocou CSS. V tomto dokumente nájdete rôzne odstavce a nadpisy, na ktoré budete aplikovať CSS vlastnosti.
 </p>
 
 <div id="font-family">
     <h2>1. Font-family</h2>
-    <p class="serif">Toto je pätkové písmo (serif).</p>
-    <p class="sans">Toto je bezpätkové písmo (sans-serif).</p>
-    <p class="mono">Toto je monospace písmo.</p>
+    <p class="serif">Toto je odstavec s pätkový fontom (serif). Má klasický vzhľad, často sa používa v tlačených knihách a elegantných dizajnoch.</p>
+    <p class="sans">Toto je odstavec s bezpätkovým fontom (sans-serif). Je moderný a čistý, ideálny pre webové stránky a digitálny obsah.</p>
+    <p class="mono">Toto je odstavec s neproporcionálnym fontom (monospace). Každé písmeno má rovnakú šírku. Používa sa pre kód a technické texty.</p>
 </div>
 
 <div id="font-size">
@@ -51,94 +51,102 @@
 
 <div id="font-weight">
     <h2>3. Font-weight</h2>
-    <p class="light">Ľahké písmo</p>
-    <p class="normal">Normálne písmo</p>
-    <p class="bold">Tučné písmo</p>
-    <p class="extra-bold">Veľmi tučné písmo</p>
+    <p class="light">Toto je ľahké písmo (font-weight: 300)</p>
+    <p class="normal">Toto je normálne písmo (font-weight: 400)</p>
+    <p class="bold">Toto je tučné písmo (font-weight: 700)</p>
+    <p class="extra-bold">Toto je veľmi tučné písmo (font-weight: 900)</p>
 </div>
 
 <div id="font-style">
     <h2>4. Font-style</h2>
-    <p class="normal-style">Normálne</p>
-    <p class="italic">Kurzíva</p>
-    <p class="oblique">Oblique</p>
+    <p class="normal-style">Toto je normálne písmo (font-style: normal)</p>
+    <p class="italic">Toto je kurzíva (font-style: italic)</p>
+    <p class="oblique">Toto je šikmé písmo (font-style: oblique)</p>
 </div>
 
 <div id="colors">
     <h2>5. Color</h2>
-    <p class="red">Červený text</p>
-    <p class="blue">Modrý text</p>
-    <p class="green">Zelený text</p>
-    <p class="purple">Fialový text</p>
+    <p class="red">Tento text je červený</p>
+    <p class="blue">Tento text je modrý</p>
+    <p class="green">Tento text je zelený</p>
+    <p class="purple">Tento text je fialový</p>
 </div>
 
 <div id="align">
     <h2>6. Text-align</h2>
-    <p class="left">Text vľavo</p>
-    <p class="center">Text na stred</p>
-    <p class="right">Text vpravo</p>
-    <p class="justify">Text do bloku Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p class="left">Tento text je zarovnaný vľavo (text-align: left). Je to najčastejšie používané zarovnanie pre bežný text v európskych jazykoch.</p>
+    <p class="center">Tento text je zarovnaný na stred (text-align: center). Používa sa pre nadpisy a krátke texty.</p>
+    <p class="right">Tento text je zarovnaný vpravo (text-align: right). Používa sa menej často, napríklad pre citáty.</p>
+    <p class="justify">Tento text je zarovnaný do bloku (text-align: justify). Ľavý aj pravý okraj sú rovné. Používa sa v knihách a novinách. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 </div>
 
 <div id="line-height">
     <h2>7. Line-height</h2>
-    <p class="lh-small">Malé riadkovanie</p>
-    <p class="lh-normal">Normálne riadkovanie</p>
-    <p class="lh-big">Veľké riadkovanie</p>
+    <p class="lh-small">Toto je text s malým riadkovaním (line-height: 1.2). Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Riadky sú blízko pri sebe.</p>
+    <p class="lh-normal">Toto je text s normálnym riadkovaním (line-height: 1.6). Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Toto je optimálne pre čítanie.</p>
+    <p class="lh-big">Toto je text s veľkým riadkovaním (line-height: 2.5). Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Riadky sú ďaleko od seba.</p>
 </div>
 
-<div id="spacing">
-    <h2>8-9. Spacing</h2>
-    <p class="letter-small">Malé medzery písmen</p>
-    <p class="letter-big">Veľké medzery písmen</p>
-    <p class="word-big">Veľké medzery slov</p>
+<div id="letter-spacing">
+    <h2>8.Letter-spacing</h2>
+    <p class="letter-small">Text s malými medzerami medzi písmenami (letter-spacing: -1px)</p>
+    <p class="letter-normal">Text s normálnymi medzerami medzi písmenami (letter-spacing: 0px)</p>
+    <p class="letter-big">Text s veľkými medzerami medzi písmenami (letter-spacing: 5px)</p>
+    <p class="letter-extra-big">Text s extra veľkými medzerami (letter-spacing: 10px)</p>
+</div>
+
+<div id="word-spacing">
+    <h2>9. Word-spacing (medzery medzi slovami)</h2>
+    <p class="word-normal">Toto je text s normálnymi medzerami medzi slovami.</p>
+    <p class="word-big">Toto je text s väčšími medzerami medzi slovami (word-spacing: 10px).</p>
 </div>
 
 <div id="transform">
     <h2>10. Text-transform</h2>
-    <p class="upper">veľké písmená</p>
-    <p class="lower">MALÉ PÍSMENÁ</p>
-    <p class="capitalize">veľké prvé písmená</p>
+    <p class="upper">tento text je celý veľkými písmenami (text-transform: uppercase)</p>
+    <p class="lower">TENTO TEXT JE CELÝ MALÝMI PÍSMENAMI (text-transform: lowercase)</p>
+    <p class="capitalize">tento text má veľké prvé písmená (text-transform: capitalize)</p>
 </div>
 
 <div id="decoration">
     <h2>11. Text-decoration</h2>
-    <p class="underline">Podčiarknuté</p>
-    <p class="overline">Čiara nad</p>
-    <p class="line-through">Prečiarknuté</p>
+    <p class="underline">Tento text je podčiarknutý (text-decoration: underline)</p>
+    <p class="overline">Tento text má čiaru nad (text-decoration: overline)</p>
+    <p class="line-through">Tento text je prečiarknutý (text-decoration: line-through)</p>
 </div>
 
 <div id="indent">
     <h2>12. Text-indent</h2>
-    <p class="indent">Tento odstavec má odsadený prvý riadok.</p>
+    <p class="indent">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Všimnite si, že prvý riadok tohto odstavca je odsadený doprava. Text-indent sa používa v knihách a článkoch na označenie začiatku nového odstavca. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <p class="indent">Aj tento odstavec má odsadený prvý riadok. To vytvára vizuálnu kontinuitu a pomáha čitateľovi rozpoznať začiatok nového odstavca. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 </div>
 
 <div id="shadow">
     <h2>13. Text-shadow</h2>
-    <p class="shadow-light">Jemný tieň</p>
-    <p class="shadow-strong">Výrazný tieň</p>
-    <p class="shadow-color">Farebný tieň</p>
+    <p class="shadow-light">Tento text má jemný tieň</p>
+    <p class="shadow-strong">Tento text má výrazný tieň</p>
+    <p class="shadow-color">Tento text má farebný tieň</p>
 </div>
 
 <div id="combo">
     <h2>14. Kombinácie</h2>
-    <p class="combo-one">Tučné, veľké, modré, tieň</p>
-    <p class="combo-two">Kurzíva, stred, zelené</p>
-    <p class="combo-three">Malé, červené, monospace</p>
+    <p class="combo-one">Toto je text s viacerými vlastnosťami: tučné, veľké, modré, s tieňom</p>
+    <p class="combo-two">Toto je text s inými vlastnosťami: kurzíva, stred, zelené, veľké medzery</p>
+    <p class="combo-three">A toto je ďalší text: malé písmo, červené, monospace, podčiarknuté</p>
 </div>
 
 <div id="fonts">
     <h2>15. Google Fonts</h2>
-    <p class="roboto">Roboto</p>
-    <p class="playfair">Playfair Display</p>
-    <p class="opensans">Open Sans</p>
+    <p class="roboto">Toto je text s Google fontom Roboto</p>
+    <p class="playfair">Toto je text s Google fontom Playfair Display</p>
+    <p class="opensans">Toto je text s Google fontom Open Sans</p>
 </div>
 
 <footer>
-    <p>&copy; Typografia - CSS</p>
+    <p>&copy; Typografia - CSS Gajdoš</p>
 </footer>
 
 </body>
 
-</body>
+
 </html>
