@@ -1,0 +1,54 @@
+:root {
+    --header: #2c3e50;
+    --biela: #fff;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+header{
+    text-align: center;
+    background-color: var(--header);
+    color: var(--biela);
+    padding: 20px;
+    margin-bottom: 40px;
+    border: 2px solid springgreen;
+}
+
+.ukazka-zabalenia{
+    background-color: var(--biela);
+}
+.box-one{
+    padding: 20px;
+    border: 5px solid;
+    margin: 30px;
+}
+
+.box-two{
+    padding: 40px;
+    border: 3px dotted orangered;
+    margin: 20opx;
+    background-color: #fadbd8;
+}
+
+.box-three{
+    border-bottom: thick solid #9fad1d ;
+    border-top: thick dotted #a81dad;
+    border-right: ridge #c23333 ;
+    border-left: double dashed #325dd4;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    margin-left: 15px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 16px;
+}
