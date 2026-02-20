@@ -1,6 +1,7 @@
 :root {
     --header: #2c3e50;
     --biela: #fff;
+    --zelena: springgreen;
 }
 
 body{
@@ -11,6 +12,8 @@ body{
     background-color: #f4f4f4;
     margin: 0;
     padding: 20px;
+    width: 950px;
+    margin: 0 auto;
 }
 
 header{
@@ -51,4 +54,52 @@ header{
     padding-top: 15px;
     padding-left: 20px;
     padding-right: 16px;
+}
+
+.kontajner-inline{
+    border: 10px; ;
+    padding: 15px;
+    width: 500px;
+
+}
+
+.box-inline{    
+    display: inline;
+    padding: 15px;
+    border-radius: 5px;
+   background-color:violet ; 
+   color: var(--header);
+    margin: 7px;
+}
+
+.box-blokovy{
+    margin: 5px;
+    padding: 15px;
+    border-radius: 5px;
+    display: block;
+    background-color: var(--zelena);
+}
+
+.ukazka-dedicnosti{
+    background-color: var(--biela);
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+h2{
+    border-bottom: 4px solid var(--zelena);
+}
+
+.box-rodic{
+    background-color: darkorchid;
+    font-size: 18px;
+    font-weight: bold;
+
+    padding: 20px;
+    background-color: #780f9e;
+    border: 3px solid  rgb(213, 159, 240);
+}
+.box-potomok{
+    border:  2px dashed rgb(213, 159, 240);
 }

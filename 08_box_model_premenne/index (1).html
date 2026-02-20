@@ -83,25 +83,25 @@
     Tieto divy zmeníme na inline elementy (napr. span alebo display: inline-block)
     a naštýlujeme ich ako farebné boxy.
     -->
-    <div>
-        <div>Box 1</div>
-        <div>Box 2</div>
-        <div>Box 3</div>
-        <div>Box 4</div>
-        <div>Box 5</div>
-        <div>Box 6</div>
-        <div>Box 7</div>
-        <div>Box 8</div>
-        <div>Box 9</div>
-        <div>Box 10</div>
+    <div class="kontajner-inline">
+        <div class="box-inline">Box 1</div>
+        <div class="box-inline">Box 2</div>
+        <div class="box-inline">Box 3</div>
+        <div class="box-inline">Box 4</div>
+        <div class="box-inline">Box 5</div>
+        <div class="box-inline">Box 6</div>
+        <div class="box-inline">Box 7</div>
+        <div class="box-inline">Box 8</div>
+        <div class="box-inline">Box 9</div>
+        <div class="box-inline">Box 10</div>
     </div>
 
     <h3>Blokové elementy (každý na novom riadku):</h3>
     
     <!-- Tieto divy ostanú blokové - každý na novom riadku -->
-    <div>Blokový element 1</div>
-    <div>Blokový element 2</div>
-    <div>Blokový element 3</div>
+    <div class="box-blokovy">Blokový element 1</div>
+    <div class="box-blokovy">Blokový element 2</div>
+    <div class="box-blokovy">Blokový element 3</div>
 
     <!-- 
     ===============================================
@@ -125,21 +125,21 @@
     Tento rodičovský box dostane farbu a veľkosť písma.
     Všetky vnorené elementy (odstavce, divy) to zdedia.
     -->
-
+    <section class="ukazka dedicnosti">
     <h2>3. DEDIČNOSŤ CSS</h2>
     
     <!-- Tento div bude mať nastavenú farbu a veľkosť písma -->
-    <div>
+    <div class="box-rodic">
         <p>Rodičovský element má nastavenú farbu a veľkosť písma.</p>
         <p>Tento odstavec dedí vlastnosti od rodiča.</p>
         <p>Aj tento dedí farbu a font-size, ale tento span má vlastnú farbu.</p>
         
         <!-- Tento vnorený div tiež dedí od rodiča -->
-        <div>
+        <div class="box-potomok">
             <p>Vnorený div - dedí od rodičovského boxu</p>
         </div>
     </div>
-
+    </section>
     <!-- 
     ===============================================
     PRAKTICKÝ PRÍKLAD - Časť 4
