@@ -1,6 +1,7 @@
 body{
 margin: 0 auto;
 width: 800px;
+background-color:#dbeafe ;
 }
 h1{
     text-align: center;
@@ -8,7 +9,7 @@ h1{
     padding: 30px;
     border: 3px solid #0ea5e9;
     margin: 30px;
-    background-color: #dbeafe;
+    background-color:#e0e7ff;
 }
 .h2{
     border-left: solid #14b8a6;
@@ -42,7 +43,7 @@ h1{
 }
 .text-3{
     margin: 30px;
-    text-align: justify;
+    text-align: left;
     line-height: 1.6;
     font-family: 'Georgia', serif;
     word-spacing: 5px;
@@ -52,8 +53,52 @@ h1{
     margin: 30px;
     text-align: justify;
     font-family: 'Tahoma', sans-serif;
+    line-height: 2;
 }
 .text-5{
     margin: 30px;
     text-align: justify;
+    font-family: font-family 'Segoe UI', sans-serif;;
+}
+.lorem{
+    margin: 30px;
+    text-align: right;
+    padding-right: 30px;
+}
+span.mesto{
+    color: #1d4ed8;
+    font-weight: bold;
+}
+span.ludia{
+    color: #be123c;
+    font-weight: bold;
+}
+span.peniaze{
+    color:#9333ea ;
+    background-color:#fef3c7 ;
+    font-weight: bold;
+}
+span.rim{
+    color:#16a34a ;
+    text-decoration: line-through;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+span.doprava{
+    color:#16a34a ;
+    text-decoration: underline;
+    font-weight: bold;
+    text-transform: uppercase ;
+}
+span.restaurant{
+    color: #fb923c;
+    font-style: italic;
+    font-weight: bold;
+}
+span.pocity{
+    color: #a855f7;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    background-color:#fef3c7 ;
 }
