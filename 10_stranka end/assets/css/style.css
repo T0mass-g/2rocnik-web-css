@@ -20,10 +20,31 @@
     --font-heading: 'Open Sans', sans-serif;
 }
 
+ul{
+    list-style: none;
+}
 
+a{
+    text-decoration: none;
+}
+
+h1,h2,h3{
+    font-family: var(--font-heading);
+    margin: 0;
+}
+
+.header{
+    background-color: var(--primarna);
+    color: var(--pozadie-biela);
+}
+
+.header__logo{
+    padding: var(--medzera-s);
+}
 
 body{
     color: var(--text-tmavy);
     background-color:  var(--pozadie-biela);
     font-family: var(--font-body);
 }
+
