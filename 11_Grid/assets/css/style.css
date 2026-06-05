@@ -42,5 +42,25 @@ body{
     .item1{
         grid-row: span 3;
     }
+    .item5{
+        grid-column: span 2;
+        
+    }
 
+}
+@media (min-width: 1024px){
+    .containter{
+        grid-template-columns: 2fr 1fr 1fr;
+        gap: 20px;
+        padding: 20px;
+    }
+    .item1{
+        grid-column: 1/4;
+        grid-row: 1/2;
+    }
+    .item6{
+        grid-column: 3/4;
+        grid-row: 3/5;
+    }
+    
 }
