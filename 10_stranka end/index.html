@@ -3,27 +3,50 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cestovná kancelária</title>
   <link rel="stylesheet" href="assets/css/normalize.css">
   <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
+  <title>Cestovná kancelária</title>
   
-<header class="header">
+</head>
+<!-- NOVÉ VECI
+ - normalize.css
+ - mobil first
+ - BEM metodológia https://www.vzhurudolu.cz/prirucka/bem
+ - premenné v CSS
+ - import fontov 
 
-<h1 class="header__logo">Objavuj Svet</h1>
-<nav class="nav">
-<ul class="nav_zoznam">
-  <li class="nav_polozka"><a href="#" class="nav_polozka">Domov</a></li>
-  <li class="nav_polozka"><a href="#" class="nav_polozka">Destinácie</a></li>
-  <li class="nav_polozka"><a href="#" class="nav_polozka">Kontakt</a></li>
-</ul>
-</nav>
+-->
+<body>
+  <header class="header">
 
-</header>
-Objavte krásy sveta s nami
-Nezabudnuteľné zážitky na dosah ruky.
-Preskúmať destinácie
+    <div class="container">
+
+      <div class="header__content">
+
+        <h1 class="header__logo">Objavuj Svet</h1>
+        
+        <nav class="nav">
+          <ul class="nav__zoznam">
+            <li class="nav__polozka"><a  href="#" class="nav__odkaz">Domov</a></li>
+            <li class="nav__polozka"><a  href="#" class="nav__odkaz">Destinácie</a></li>
+            <li class="nav__polozka"><a  href="#" class="nav__odkaz">Kontakt</a></li>
+          </ul>
+        </nav>
+        
+      </div>
+    </div>
+  </header>
+
+
+ <section class="hero">
+  <div class="cointainer">
+
+  <h2 class="hero__nazov">Objavte krásy sveta s nami</h2>
+   <p class="hero__text">Nezabudnuteľné zážitky na dosah ruky.</p>
+   <a href="#" class="hero__tlacidlo">Preskúmať destinácie</a>
+ 
+  </div>   
+ </section>
 
 Prečo cestovať s nami?
 
@@ -63,24 +86,5 @@ Email: info@objavujsvet.sk
 © 2026 Objavuj Svet
 
 
- <!-- 
-#2563eb;
-#1e40af;
-#f97316;
-#1f2937;
-#6b7280;
-#ffffff;
-#f9fafb;
-
-
-10_responzivna_stranka/           
-├── index.html      
-└── css/
-    ├── normalize.css
-    └── style.css   
-
-```
-
--->
 </body>
 </html>
