@@ -1,4 +1,4 @@
-body, html{
+    body, html{
     margin: 0;
     padding: 0;
 }
@@ -8,12 +8,19 @@ body{
 }
 
 .containter{
+   display: grid;
+   grid-template-columns: 1fr;
+}
 
-    }
 
+.containter > div{
+    padding: 20px;
+    border-radius: 8px;
+    min-height: 100px;
+}  
     
 .item1{
-  
+  grid-row: span 3;
     background-color: #a8333f; 
 }
 .item2{background-color: #5df9fe; }
@@ -21,9 +28,19 @@ body{
 .item4{background-color: #6eb0fd; }
 .item5{background-color: #d487f0; }
 .item6{
-    grid-column: 2 / 5;
     background-color: #51c27b; }
 .item7{background-color: #bd9c71;}
 .item8{background-color: #FFFFBA;}
 .item9{background-color: #CCCCCC; }
     
+@media (min-width : 768px){
+    .containter{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .item1{
+        grid-row: span 3;
+    }
+
+}
