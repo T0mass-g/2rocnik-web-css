@@ -211,4 +211,6 @@ footer{
     border-top:1px solid rgba(255,255,255,.15);
     color:#aaa;
 }
- 
+html{
+  scroll-behavior: smooth;
+}
