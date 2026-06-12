@@ -1,4 +1,4 @@
-    body, html{
+  body, html{
     margin: 0;
     padding: 0;
 }
@@ -7,20 +7,20 @@ body{
     /* height: 100%; */
 }
 
-.containter{
-   display: grid;
-   grid-template-columns: 1fr;
+.container{
+  display: grid;
+  grid-template-columns: 1fr;
+
 }
 
+.container > div{
+  padding: 20px;
+  border-radius: 8px;
+  min-height: 100px;
+}
 
-.containter > div{
-    padding: 20px;
-    border-radius: 8px;
-    min-height: 100px;
-}  
     
 .item1{
-  grid-row: span 3;
     background-color: #a8333f; 
 }
 .item2{background-color: #5df9fe; }
@@ -28,39 +28,44 @@ body{
 .item4{background-color: #6eb0fd; }
 .item5{background-color: #d487f0; }
 .item6{
+    
     background-color: #51c27b; }
 .item7{background-color: #bd9c71;}
 .item8{background-color: #FFFFBA;}
 .item9{background-color: #CCCCCC; }
     
-@media (min-width : 768px){
-    .containter{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
-    }
-    .item1{
-        grid-row: span 3;
-    }
-    .item5{
-        grid-column: span 2;
-        
-    }
 
+@media (min-width: 768px){
+  .container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px;
+  }
+
+  .item1{
+      grid-row: span 3;   /*prechádzaj cez 3 riadky*/
+  }
+
+  .item5{
+    grid-column: span 2;
+  }
+  
 }
+
+
 @media (min-width: 1024px){
-    .containter{
-        grid-template-columns: 2fr 1fr 1fr;
-        gap: 20px;
-        padding: 20px;
-    }
-    .item1{
-        grid-column: 1/4;
-        grid-row: 1/2;
-    }
-    .item6{
-        grid-column: 3/4;
-        grid-row: 3/5;
-    }
-    
-}
+
+  .container{
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;  
+  }
+
+  .item1{
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+  }
+
+  .item6{
+    grid-column: 3 / 4;
+    grid-row: 3 / 5;
